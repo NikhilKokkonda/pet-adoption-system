@@ -1,0 +1,67 @@
+.pets-container {
+    padding: 30px;
+    background: #f5f6fa;
+    min-height: 100vh;
+}
+
+.pets-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* GRID */
+.pets-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* CARD */
+.pet-card {
+    width: 260px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* IMAGE */
+.pet-image {
+    height: 150px;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* CONTENT */
+.pet-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.pet-content h3 {
+    margin-bottom: 10px;
+}
+
+/* BUTTONS */
+.pet-buttons {
+    margin-top: 10px;
+}
+
+.pet-buttons button {
+    padding: 6px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #3498db;
+    color: white;
+}
+
+.delete-btn {
+    background: #e74c3c !important;
+}

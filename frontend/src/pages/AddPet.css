@@ -1,0 +1,81 @@
+.addpet-page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+    background:linear-gradient(135deg,#f6f9fc,#dfe9f3);
+}
+
+.addpet-box{
+    width:100%;
+    max-width:520px;
+    background:white;
+    padding:40px 35px;
+    border-radius:18px;
+    box-shadow:0 12px 28px rgba(0,0,0,0.12);
+}
+
+.addpet-box h2{
+    text-align:center;
+    color:#1e3c72;
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.addpet-box p{
+    text-align:center;
+    color:#666;
+    margin-bottom:28px;
+}
+
+.addpet-box form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.addpet-box input,
+.addpet-box textarea{
+    padding:14px 16px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+    transition:0.3s;
+    resize:none;
+}
+
+.addpet-box input:focus,
+.addpet-box textarea:focus{
+    border-color:#2a5298;
+    box-shadow:0 0 0 3px rgba(42,82,152,0.12);
+}
+
+.addpet-box button{
+    border:none;
+    padding:14px;
+    border-radius:10px;
+    background:#2a5298;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.addpet-box button:hover{
+    background:#1e3c72;
+    transform:translateY(-2px);
+}
+
+@media(max-width:600px){
+
+    .addpet-box{
+        padding:30px 22px;
+    }
+
+    .addpet-box h2{
+        font-size:28px;
+    }
+}
