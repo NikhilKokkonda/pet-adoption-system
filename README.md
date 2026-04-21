@@ -47,6 +47,14 @@ Backend:
    npm install
    npm run dev
 
+🎯 Why This Project is Better
+
+ Clean architecture (Controller → Service → Repository)
+ User-friendly interface
+ Full-stack implementation
+ Real-time data interaction using APIs
+
+
  👩‍💻 Author
 
 Chintada RamyaSri
