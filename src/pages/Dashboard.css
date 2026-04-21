@@ -1,0 +1,152 @@
+.dashboard-container{
+    padding:40px;
+    background:#f4f6f9;
+    min-height:100vh;
+}
+
+.dashboard-container h1{
+    text-align:center;
+    color:#1e3c72;
+    margin-bottom:35px;
+    font-size:42px;
+}
+
+/* TOP STATS */
+.dashboard-cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+    margin-bottom:50px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:35px 25px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.card h2{
+    font-size:48px;
+    color:#2a5298;
+    margin-bottom:12px;
+}
+
+.card p{
+    font-size:18px;
+    color:#555;
+    font-weight:600;
+}
+
+/* SECTION TITLE */
+.req-head{
+    font-size:34px;
+    color:#222;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+/* REQUEST GRID */
+.req-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+/* REQUEST CARD */
+.req-card{
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.req-card:hover{
+    transform:translateY(-5px);
+}
+
+.req-card p{
+    margin:14px 0;
+    font-size:18px;
+    color:#333;
+    line-height:1.5;
+}
+
+/* STATUS COLORS */
+.green{
+    color:green;
+    font-weight:bold;
+}
+
+.red{
+    color:#e53935;
+    font-weight:bold;
+}
+
+.orange{
+    color:#ff9800;
+    font-weight:bold;
+}
+
+/* BUTTON ROW */
+.btn-row{
+    display:flex;
+    gap:12px;
+    margin-top:18px;
+}
+
+/* BUTTONS */
+.approve-btn,
+.reject-btn{
+    border:none;
+    padding:11px 18px;
+    border-radius:10px;
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.approve-btn{
+    background:green;
+}
+
+.approve-btn:hover{
+    background:#0b8f0b;
+}
+
+.reject-btn{
+    background:#e53935;
+}
+
+.reject-btn:hover{
+    background:#c62828;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+    .dashboard-container{
+        padding:20px;
+    }
+
+    .dashboard-container h1{
+        font-size:32px;
+    }
+
+    .req-head{
+        font-size:28px;
+    }
+
+    .btn-row{
+        flex-direction:column;
+    }
+}
